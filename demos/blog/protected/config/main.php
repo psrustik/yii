@@ -68,6 +68,11 @@ return array(
 				*/
 			),
 		),
+		// CleanTalk application component
+		'cleanTalk'=>array(
+			'class'=>'ext.yii-antispam.CleanTalkApi',
+			'apiKey'=>'**YOUR_KEY***',
+		),
 	),
 
 	// application-level parameters that can be accessed
